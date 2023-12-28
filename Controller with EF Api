@@ -1,0 +1,5 @@
+1. Add Controller with actions and EF framework
+2. For Database
+    Open Package Manager Console -> Add-Migration InitialCreate -> Update-Database
+3. Launch and Test using PostMan
+4. Run Get if get empty array means success Db created
