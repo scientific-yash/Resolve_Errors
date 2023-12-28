@@ -1,0 +1,9 @@
+In Program.css Add The following Lines :
+
+builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
+{
+    builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+}));
+
+app.UseRouting();
+app.UseCors("corsapp");
