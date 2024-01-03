@@ -1,0 +1,9 @@
+To create Database in C# using Code First Approach :
+1. Create a Model with the entities you want and id as a primary key
+   To use [Key] at top add using System.ComponentModel.DataAnnotations;
+   To use [Foreign Key] add using System.ComponentModel.DataAnnotations.Schema;
+2. Add Api Controller with Actions using Entity Framework
+3. To add Database write the following Commands in Nuget Package Console
+   -> Add-Migration InitialCteate
+   -> Update-Database
+4. Done Now you can perform the operations
