@@ -1,0 +1,1 @@
+Scaffold-DbContext "User Id=crm;Password=crm123;Data Source=10.125.64.73:1521/ebstest;" Oracle.EntityFrameworkCore -Schemas RPL -Tables USER_ROLE -OutputDir Models -Force 
